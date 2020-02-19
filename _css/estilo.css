@@ -1,0 +1,206 @@
+@charset"utf-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");}
+
+@font-face {
+    font-family: 'Bitter', serif;
+}
+@font-face {
+    font-family: 'Abril Fatface', cursive;
+}
+
+@font-face {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+/*Formatação do Cabeçalho do site */
+
+article#principal img#apresentacao{
+    position:relative;
+    width: 550px;
+    height: 320px;
+    left: 650px  ;
+    top: -285px;}
+
+header#cabecalho h1{font-family: "ZCOOL QingKe HuangYou",cursive;
+    font-size: 15pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding:15px;
+    margin-bottom: 0px;
+}
+
+/* Formatação do Menu*/
+nav#menu{display: grid;
+    position: static;}
+
+nav#menu ul{list-style: none;
+    position:absolute;
+    top: 15px;
+    left:650px;}
+
+nav#menu li {display: inline;
+    padding: 12px;
+    margin: 5px;
+    transition: color 1s;
+    font-family: "Abril Fatface",cursive;}
+
+nav#menu li:hover{color: #7e8aa1;}
+
+nav#menu h1{display:none;}
+
+nav#botao{display: ruby;}
+
+nav#botao ul{
+    list-style: none;
+    position: absolute;
+    top: 500px;
+    left: 200px;}
+
+nav#botao li{
+    display: inline-block;
+    background: #dddddd;
+    padding: 20px;
+    margin: 5px;
+    transition: background-color 1s;
+    font-family: "ZCOOL QingKe HuangYou",cursive;}
+
+nav#botao li:hover{background-color: #7e8aa1}
+
+/* Formatação do Corpo do Site */
+
+body {font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: black;}
+
+div#interface{width:1200px;
+    background-color: #dddddd;
+    margin: 5px auto 20px auto;}
+
+article#principal{
+    padding: 75px;
+}
+
+article#principal h1{
+    font-family: "ZCOOL QingKe HuangYou",cursive;
+    font-size: 30pt;
+    text-align: left;
+    color: black;
+    font-weight: bold;}
+
+article#principal h2{
+    font-family: "ZCOOL QingKe HuangYou",cursive;
+    font-size: 30pt;
+    text-align: left;
+    color: black;}
+
+article#principal p{
+    font-family: "ZCOOL QingKe HuangYou",cursive;
+    font-size: 15pt;
+    text-align: left;
+    color: black;
+    width: 650px;}
+
+
+/* Formatação do Corpo da parte de características*/
+
+
+div#caracteristica-full h1{font-size: 10pt;
+    text-align: center;}
+
+div#caracteristica-full h2{
+    text-align: center;
+}
+
+div#caracteristica-full p{
+    text-align: center;
+}
+
+article#caracteristica img#media{
+    position: relative;
+    left: 250px;
+}
+
+.media1:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all .4s ease-in;
+}
+
+div#caracteristicas1{
+    width: 50px;
+    height: 90px;
+    position: relative;
+    left: 300px;
+}
+
+div#caracteristicas2{
+    width: 50px;
+    height: 90px;
+    position: relative;
+    left: 600px;
+    top: -110px;
+}
+
+div#caracteristicas3{
+    width: 50px;
+    height: 90px;
+    position: relative;
+    left: 900px;
+    top: -220px;
+}
+
+div#caracteristicas4{
+    width: 50px;
+    height: 90px;
+    position: relative;
+    left: 300px;
+    top: -110px;
+}
+
+div#caracteristicas5{
+    width: 50px;
+    height: 90px;
+    position: relative;
+    left: 600px;
+    top: -220px;
+}
+
+div#caracteristicas6{
+    width: 50px;
+    height: 90px;
+    position: relative;
+    left: 900px;
+    top: -330px;}
+
+div#caracteristica-full{width:1200px;
+    background-color: #dddddd;
+    margin: 5px auto 20px auto;
+    padding: 20px;}
+
+
+
+/* Formatação rodapé com contatos */
+
+footer#contato{clear: both;
+    border-top:1px solid gray;}
+footer#contato p{text-align: center;
+}
+
+img#WZ {
+    width: 20px;
+    height: 20px;
+}
+
+/* Formatação de texto: Paragrafos, Background do site e outras coisas da interface */
+p {text-align: justify; text-indent: 50px;}
+a {color:#606060;
+text-decoration: none;}
+
+header#cabecalho{border-bottom: 1px gray solid;
+height: 60px;}
